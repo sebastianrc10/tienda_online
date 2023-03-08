@@ -1,41 +1,58 @@
 header{
     display: flex;
     justify-content: space-between;
+    
+}
+
+.header-logo{
+
+}
+
+.header-logo svg{
+
+    
 }
 
 .header-list{
     
 }
 
-.header-list{
-   
+.header-list ul{
+    display: flex;
+    list-style: none;
+}
+
+.header-list ul li{
+
 }
 
 .header-button{
-
-
+     
 }
+
+.header-button button{
+     
+     
+}
+
+
 
 .slider{
+   
     
     
-    
-
 }
 
-.slider-image{
-
-}
 
 .slider-image{
-
+   
 }
 
 .slider-title{
     
     
-   
-}
+ }  
+
 
 .slider-subtitle{
    
@@ -45,52 +62,54 @@ header{
 
 }
 
-.feactured{
-
+.featured{
     
     
+    
 }
 
-.feactured-title{
-
-}
-
-.feactured-subtitle{
+.featured-title{
 
 }
 
-.feactured-elements{
+.featured-subtitle{
 
 }
 
-.feactured-element{
-
-}
-
-.feactured-element-image{
-  
+.featured-elements{
     display: flex;
+    justify-content: space-between;
+}
+
+.featured-element{
+}
+   
+
+.featured-element-image{
+  
+    
     
 }
 
-.feactured-element-title{
+.featured-element-title{
 
 }
 
-.feactured-element-description{
+.featured-element-description{
 
 }
 
 .details{
-
+    display: flex;
 }
 
 .details-elements{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .detail-element{
-
 }
 
 .detail-element-icon{
@@ -110,15 +129,15 @@ header{
 }
 
 .team-elements{
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .team-element{
-
 }
 
 .team-element-social-networks{
-
+     
 }
 
 .team-element-image{
@@ -134,7 +153,7 @@ header{
 }
 
 .contact{
-
+    
 }
 
 .contact-elements{
@@ -153,7 +172,15 @@ header{
 
 }
 
+.contact-element-info{
+    display: flex;
+}
+
 .contact-element-icon{
+
+}
+
+.contact-element-text{
 
 }
 
@@ -162,7 +189,7 @@ header{
 }
 
 footer{
-
+   
 }
 
 .footer-web{
@@ -174,7 +201,7 @@ footer{
 }
 
 .footer-icon{
-
+    display: flex;
 }
 
 
