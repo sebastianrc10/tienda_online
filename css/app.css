@@ -9,7 +9,7 @@ header{
 }
 
 .header-logo svg{
-
+ 
     
 }
 
@@ -31,7 +31,7 @@ header{
 }
 
 .header-button button{
-     
+margin-block-start: 10%;
      
 }
 
@@ -45,13 +45,24 @@ header{
 
 
 .slider-image{
-   
+  
 }
+img{
+    width:80%;
+    height:10vh;
+    margin: 20px;
+    
+    
+}
+   
 
 .slider-title{
     
     
  }  
+ .slider-title h2{
+    
+ }
 
 
 .slider-subtitle{
