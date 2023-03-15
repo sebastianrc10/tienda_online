@@ -99,120 +99,182 @@ header{
     
 }
 
-
 .slider{
- 
-
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    position: relative;
 }
-
 
 .slider-image{
-  z-index: 1000;
-  position: absolute;
+    position: absolute;
+    z-index: -1;
 }
-
-
-
-   
+    
 .slider-title{
-    text-align: center;
-    
-    
- }  
- .slider-title h2{
-    z-index: 1001;
-    position: relative;
- }
+    position: absolute;
+    top: 20%
+}  
 
+.slider-title h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 3rem;
+    text-align: center;   
+}
 
 .slider-subtitle{
-   text-align: center;
-   z-index: 1000;
-   position: absolute;
-   
-   
-
+    position: absolute;
+    top: 30%;
+    width: 50%;
 }
+
+.slider-subtitle p{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.slider-button{
+    position: absolute;
+    top: 50%
+}
+
 .slider-button button{
-  background-color: #0084ff;
-  color: hsl(0, 0%, 100%);
-  border: none;
-  border-radius: 100px;
-  padding: 1rem 2rem;
-  z-index: 1000;
-  position: absolute;
-  
-  
+    background-color: #0084ff;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 100px;
+    padding: 1rem 2rem;
 }
 
 .featured{
     
-    
-    
+    padding: 2rem 10%;
+    width: 80%;
 }
-
 .featured-title{
-text-align: center;
+    
+}
+.featured-subtitle{
+    margin-top: 2rem;  
+}
+   
+
+.featured-title h2{
+   text-align: center;
+
 }
 
-.featured-subtitle{
-text-align: center;
+.featured-subtitle p{
+   text-align: center;
+   
 }
+
 
 .featured-elements{
     display: flex;
     justify-content: space-between;
     gap: 3%; 
-    column-count: 2;
+    column-count: 3;
+    margin:4rem;
 }
 
 .featured-element{
-
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
 }
-   
-
 .featured-element-image{
-  width: 5%;
-    
-    
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+} 
+
+.featured-element-image svg{
+   width: 30%;    
 }
 
 .featured-element-title{
- text-align: center;
+   text-align: center;
 }
 
 .featured-element-description{
- text-align: center;
+   text-align: center;
+   
 }
 
-.details{
+.details{  
+    padding: 5rem 0%;
     display: flex;
-}
-
-.details-elements{
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
-.detail-element{
+.details-elements{
+    
 }
 
-.detail-element-icon{
+.detail-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 
 
+    
+}
+.detail-element::before{
+    
+}
+.detail-element-icon{
+    
+
+
+}
+.detail-element-icon svg{
+   width: 5%;
+   height: 5vh;
+   
+}
+
+.detail-element-image{
+    
+}
+.detail-element-image img{
+    width: 50%
+    
 }
 
 .detail-element-info{
+    padding: 0 2rem;
+    
+}
+
+.detail-element-info-title h2{
+     text-align: center;
+     font-size: 1rem;
+    
 
 }
 
-.detail-element-info-title{
+.detail-element-info-description p{
+     text-align: center;
+     margin-top: 1rem;
+     
+     
 
 }
-
-.detail-element-info-description{
-
+.team{
+    padding: 5%; 
+    margin: 2 2rem
 }
+.team-title{
+    text-align: center;
+}
+.team-subtitle{
+    text-align: center;
+}
+
 
 .team-elements{
     display: flex;
@@ -220,7 +282,10 @@ text-align: center;
 }
 
 .team-element{
+   padding: 3%;
+   margin: 2 2rem;
 }
+
 
 .team-element-social-networks{
      
